@@ -7,5 +7,5 @@ function updatePlaylist(obj, artistName, songTitle) {
   return obj
 }
 
-playlist = updatePlaylist(playlist, 'Palov', "What's that")
+playlist = updatePlaylist({}, 'Palov', "What's that")
 console.log(playlist)
