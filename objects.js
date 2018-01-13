@@ -4,4 +4,4 @@ function updatePlaylist(playlist, artistName, songTitle) {
   return Object.assign(playlist, {[artistName]: songTitle})
 }
 
-console.log(updatePlaylist({}, 'Rob', 'Best Song'))
+console.log(updatePlaylist(playlist, 'Rob', 'Best Song'))
